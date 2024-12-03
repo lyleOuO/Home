@@ -15,7 +15,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
-  background-image: url('image/placeholder.png');
+  background-image: url('/image/placeholder.png');
   background-size: cover;
   background-position: center;
   color: black;
