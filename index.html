@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人主页</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Regular.css">
+  <!-- 引入 FontAwesome 图标库 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <div class="title-container">
+    <a href="/" class="title-link">Lyle's Home</a>
+  </div>
+  
+  <div class="social-container">
+    <ul id="social-links" class="social-links"></ul>
+    <!-- 根据links.json文件获得，在 links.json 文件中，每个社交媒体链接都有一个 show 字段，它决定了是否显示该链接。-->
+    <!-- 这个字段的值通常是 true（表示该社交媒体链接应该显示在页面上。） 或 false（表示该社交媒体链接不应显示在页面上。），用于控制是否在页面中生成对应的社交媒体图标。 -->
+  </div>
+
+  <footer>
+    <p>© <span id="date"></span> <span class="separator">|</span> <a href="https://blog.lyle.pp.ua/" class="footer-link">lyle</a></p>
+  </footer>
+  
+
+  <script src="/js/index.js"></script>
+</body>
+</html>
