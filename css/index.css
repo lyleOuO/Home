@@ -1,7 +1,7 @@
 :root {
   --font-size-base: 16px; 
-  --primary-color: #2e405b;
-  --hover-color: black;
+  --primary-color: black;
+  --hover-color: blue;
   --underline-color: black;
   --icon-size: 1.875rem; 
 }
