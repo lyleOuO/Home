@@ -38,18 +38,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const formattedDate = `${year}年${month}月${day}日`;
   
   document.getElementById('date').textContent = formattedDate;
-});
 
 // 新年灯笼
-document.addEventListener("DOMContentLoaded", function () {
-  // 获取当前月份（注意，月份是从0开始的，即0代表1月，11代表12月）
   var currentMonth = new Date().getMonth();
-
   // 判断当前月份是否是1月或12月
   if (currentMonth === 0 || currentMonth === 11) {
     // 加载该 JS 脚本
     var script = document.createElement('script');
     script.src = "https://api.vvhan.com/api/script/denglong";
     document.head.appendChild(script);
-  }
 });
