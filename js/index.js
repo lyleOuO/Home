@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
   // 加载 JSON 配置文件
   fetch('links.json')
-    .then(response => response.json())
-    .then(data => {
+    。then(response => response.json())
+    。then(data => {
       const container = document.getElementById('social-links');
 
       // 遍历 JSON 数据并创建列表项
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       });
     })
-    .catch(error => {
+    。catch(error => {
       console.error('加载社交媒体链接失败:', error);
     });
 });
@@ -40,4 +40,16 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('date').textContent = formattedDate;
 });
 
+// 新年灯笼
+document.addEventListener("DOMContentLoaded", function () {
+  // 获取当前月份（注意，月份是从0开始的，即0代表1月，11代表12月）
+  var currentMonth = new Date().getMonth();
 
+  // 判断当前月份是否是1月或12月
+  if (currentMonth === 0 || currentMonth === 11) {
+    // 加载该 JS 脚本
+    var script = document.createElement('script');
+    script.src = "https://api.vvhan.com/api/script/denglong";
+    document.head.appendChild(script);
+  }
+});
