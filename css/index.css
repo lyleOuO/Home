@@ -2,7 +2,6 @@
   --font-size-base: 16px; 
   --primary-color: black;
   --hover-color: #0278ff;
-  --underline-color: black;
   --icon-size: 1.875rem; 
   --icon-size-small: 1.5rem; 
 }
@@ -52,7 +51,6 @@ body {
   bottom: -5px;
   width: 100%;
   height: 2px;
-  background-color: var(--underline-color);
 }
 
 .title-link:hover {
