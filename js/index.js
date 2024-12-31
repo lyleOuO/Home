@@ -29,14 +29,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // 获取当前日期
 document.addEventListener('DOMContentLoaded', function () {
-  
+  
   const currentDate = new Date();
   const year = currentDate.getFullYear();
-  const month = currentDate.getMonth() + 1; 
+  const month = currentDate.getMonth() + 1; 
   const day = currentDate.getDate();
-  
+  
   const formattedDate = `${year}年${month}月${day}日`;
-  
+  
   document.getElementById('date').textContent = formattedDate;
-
 });
+
