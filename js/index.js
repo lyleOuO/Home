@@ -25,10 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
     。catch(error => {
       console.error('加载社交媒体链接失败:', error);
     });
-});
 
 // 获取当前日期
-document.addEventListener('DOMContentLoaded', function () {
   
   const currentDate = new Date();
   const year = currentDate.getFullYear();
@@ -39,4 +37,3 @@ document.addEventListener('DOMContentLoaded', function () {
   
   document.getElementById('date').textContent = formattedDate;
 });
-
