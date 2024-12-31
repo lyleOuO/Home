@@ -39,12 +39,4 @@ document.addEventListener('DOMContentLoaded', function () {
   
   document.getElementById('date').textContent = formattedDate;
 
-// 新年灯笼
-  var currentMonth = new Date().getMonth();
-  // 判断当前月份是否是1月或12月
-  if (currentMonth === 0 || currentMonth === 11) {
-    // 加载该 JS 脚本
-    var script = document.createElement('script');
-    script.src = "https://api.vvhan.com/api/script/denglong";
-    document.head.appendChild(script);
 });
