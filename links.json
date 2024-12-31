@@ -3,59 +3,70 @@
         {
             "name": "Email",
             "url": "mailto:lyle@cock.li",
-            "icon": "fas fa-envelope",
+            "icon": "fa-regular fa-envelope",
             "show": true
-        },{
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/lyleOuO",
+            "icon": "fa-brands fa-github",
+            "show": true
+        },
+        {
             "name": "Telegram",
             "url": "https://t.me/Lyle0u0_Bot",
             "icon": "fab fa-telegram",
             "show": true
-        },{
+        },
+        {
             "name": "Twitter",
             "url": "https://twitter.com/Lyle0u0",
             "icon": "fab fa-twitter",
             "show": true
-        },{
+        },
+        {
             "name": "Instagram",
             "url": "https://www.instagram.com/lyle0u0/profilecard/?igsh=ZG14YWNjNTFydzZ2",
             "icon": "fab fa-instagram",
             "show": true
-        },{
+        },
+        {
             "name": "Discord",
             "url": "https://discord.gg/24YhJCXg",
             "icon": "fab fa-discord",
             "show": true
-        },{
+        },
+        {
             "name": "WhatsApp",
             "url": "https://wa.me/qr/U4LPVZHSVC6XL1",
             "icon": "fab fa-whatsapp",
             "show": true
-        },{
-            "name": "GitHub",
-            "url": "https://github.com/lyleOuO",
-            "icon": "fab fa-github",
+        },
+        {
+            "name": "youtube",
+            "url": "https://youtube.com",
+            "icon": "fa-brands fa-youtube",
+            "color": "#ff0000",
             "show": true
-      },{
-            "name": "Wechat",
-            "url": "https://weixin.qq.com",
-            "icon": "fa-brands fa-weixin",
-            "show": true
-      },{
+        },
+        {
             "name": "QQ",
-            "url": "https://im.qq.com/index/",
+            "url": "https://im.qq.com",
             "icon": "fab fa-qq",
             "show": true
-      },{
+        },
+        {
             "name": "Bilibili",
             "url": "https://bilibili.com",
             "icon": "fab fa-bilibili",
             "show": true
-      },{
+        },
+        {
             "name": "Weibo",
             "url": "https://weibo.com",
             "icon": "fab fa-weibo",
             "show": true
-      }
+        }
     ]
   }
   
