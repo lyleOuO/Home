@@ -39,15 +39,5 @@ document.addEventListener('DOMContentLoaded', function () {
   
   document.getElementById('date').textContent = formattedDate;
 
-  // 新年灯笼js样式
-  var currentMonth = new Date().getMonth();
-
-  // 判断当前月份是否是1月（即currentMonth为0）
-  if (currentMonth === 0 || currentMonth === 11) {
-    // 如果是1月，则加载该JS脚本
-    var script = document.createElement('script');
-    script.src = "https://api.vvhan.com/api/script/denglong";
-    document.head.appendChild(script);
-  }
 });
 
